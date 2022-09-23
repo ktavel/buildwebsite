@@ -1,0 +1,31 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr: :nth-child(even){
+    background-color: rgb(185,185,185);
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+body {
+    background-color: yellow;
+    text-align: center;
+}
+
+img  {
+    float: center;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
